@@ -1,0 +1,128 @@
+/* common css part start */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* macbook part css start */
+#macbook .macbook-pro{
+    margin-top: 50px;
+}
+#macbook .macbook-pro .image{
+    width: 45%;
+}
+#macbook .macbook-pro .image img{
+    width: 100%;
+}
+#macbook .macbook-pro .text{
+    width: 50%;
+    margin-left: 20px;
+}
+#macbook .macbook-pro .text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#macbook .macbook-pro .text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+#macbook .macbook-pro .text .memory{
+    margin-bottom: 40px;
+}
+#macbook .macbook-pro .text .memory h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+#macbook .macbook-pro .text .memory button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    border-radius: 3px;
+    margin-right: 6px;
+    padding: 5px 10px;
+    background: white;
+}
+#macbook .macbook-pro .text .pricing{
+    width: 60%;
+    margin-bottom: 30px;
+}
+#macbook .macbook-pro .text .pricing .item{
+    padding-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(0, 0, 0, .1);
+}
+#macbook .macbook-pro .text .pricing .black{
+    padding-bottom: 15px;
+    margin-top: 10px;
+    border-bottom: 2px solid black;
+}
+#macbook .macbook-pro .text .pricing .item .name{
+    width: 80%;
+}
+#macbook .macbook-pro .text .pricing .item .name h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#macbook .macbook-pro .text .pricing .item .price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+#macbook .macbook-pro .text .pomo-code{
+    margin-bottom: 20px;
+}
+#macbook .macbook-pro .text .pomo-code h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#macbook .macbook-pro .text .pomo-code input{
+    padding: 10px 15px;
+}
+#macbook .macbook-pro .text .pomo-code button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    background: red;
+    border-radius: 6px;
+    border: none;
+    color: white;
+}
+#macbook .total{
+    text-align: center;
+}
+#macbook .total-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
