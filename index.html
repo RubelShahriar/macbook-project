@@ -25,64 +25,64 @@
                         <p>Apple M1 chip with 8‑core CPU, 8‑core GPU, and 16‑core Neural Engine 256GB SSD storage 13-inch Retina display with True Tone 8GB unified memory Backlit Magic Keyboard - US English Touch Bar and Touch ID Two Thunderbolt / USB 4 ports Magic mouse Magic keyboard -us English</p>
                         <div class="memory">
                             <h3>memory</h3>
-                            <button>8GB unified memory</button>
-                            <button>16GB unified memory</button>
+                            <button id="memoryone">8GB unified memory</button>
+                            <button id="memorytwo">16GB unified memory</button>
                         </div>
                         <div class="memory">
                             <h3>storage</h3>
-                            <button>256GB SSD storage</button>
-                            <button>512GB SSD storage</button>
-                            <button>1TB SSD storage</button>
+                            <button id="storageone">256GB SSD storage</button>
+                            <button id="storagetwo">512GB SSD storage</button>
+                            <button id="storagethree">1TB SSD storage</button>
                         </div>
                         <div class="memory">
                             <h3>choose your delivery option</h3>
-                            <button>Friday, Aug 25 FREE Prime Delivery</button>
-                            <button>Friday, Aug 21 Delivery charge</button>
+                            <button id="deliveryone">Friday, Aug 21 Delivery charge</button>
+                            <button id="deliverytwo">Friday, Aug 25 FREE Prime Delivery</button>
                         </div>
                         <div class="pricing">
                             <div class="item flex">
                                 <div class="name">
                                     <h4>Best-price</h4>
                                 </div>
-                                <div class="price">$<span>1299</span></div>
+                                <div class="price">$<span id="best-cost">1299</span></div>
                             </div>
                             <div class="item flex">
                                 <div class="name">
                                     <h4>Extra memory cost</h4>
                                 </div>
-                                <div class="price">$<span>0</span></div>
+                                <div class="price">$<span id="memory-cost">0</span></div>
                             </div>
                             <div class="item flex">
                                 <div class="name">
                                     <h4>Extra storage cost</h4>
                                 </div>
-                                <div class="price">$<span>0</span></div>
+                                <div class="price">$<span id="storage-cost">0</span></div>
                             </div>
                             <div class="item black flex">
                                 <div class="name">
                                     <h4>delivery charge</h4>
                                 </div>
-                                <div class="price">$<span>0</span></div>
+                                <div class="price">$<span id="delivery-cost">0</span></div>
                             </div>
                             <div class="item flex">
                                 <div class="name">
                                     <h4>total-price</h4>
                                 </div>
-                                <div class="price">$<span>1299</span></div>
+                                <div class="price">$<span id="total-cost">1299</span></div>
                             </div>
                         </div>
                         <div class="pomo-code">
                             <h3>add pomo code</h3>
                             <div class="pomo-input">
-                                <input type="text">
-                                <button>Apply</button>
+                                <input id="steve" type="text">
+                                <button onclick="pomocode()">Apply</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <hr>
                 <div class="total">
-                    <h1 class="total-text">total:$<span>1299</span></h1>
+                    <h1 class="total-text">total:$<span id="final-amount">1299</span></h1>
                 </div>
             </div>
         </section>
