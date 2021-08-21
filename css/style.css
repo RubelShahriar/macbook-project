@@ -1,27 +1,23 @@
-/* common css part start */
+/*============ common css part start============ */
 *{
     margin: 0;
     padding: 0;
 }
-
 a{
     text-decoration: none;
 }
-
 ul, ol{
     list-style: none;
 }
-
 .container{
     width: 90%;
     margin: 0 auto;
 }
-
 .flex{
     display: flex;
 }
 
-/* macbook part css start */
+/*============= macbook part css start============ */
 #macbook .macbook-pro{
     margin-top: 50px;
 }
